@@ -23,7 +23,7 @@
 #include <hardware_legacy/AudioPolicyManagerBase.h>
 
 
-namespace android_audio_legacy {
+namespace android {
 
 class AudioPolicyManager: public AudioPolicyManagerBase
 {
@@ -47,3 +47,4 @@ protected:
 
 };
 };
+

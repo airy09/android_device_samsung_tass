@@ -11,6 +11,8 @@ LOCAL_MODULE_TAGS := optional
 
 LOCAL_PRELINK_MODULE := false
 
+LOCAL_SRC_FILES:= QualcommCameraHardware.cpp
+
 LOCAL_CFLAGS:= -DDLOPEN_LIBMMCAMERA=$(DLOPEN_LIBMMCAMERA)
 
 ## Can be raised to 6 to improve framerate, at the cost of allocating

@@ -20,5 +20,5 @@
 # In particular, you can add lunch options with the add_lunch_combo
 # function: add_lunch_combo generic-eng
 
-
-add_lunch_combo cm_tass-eng
+add_lunch_combo tass-eng
+add_lunch_combo tass-userdebug
